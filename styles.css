@@ -1,4 +1,5 @@
-:root{
+:root{/* CODE FROM FilipPikus123!!!! */
+
   --bg:#0c0d10;
   --card:#14161b;
   --text:#f2f2f2;
@@ -9,6 +10,7 @@
   --radius:18px;
   --shadow:0 20px 60px rgba(0,0,0,.6);
 }
+/* CODE FROM FilipPikus123!!!! */
 
 *{box-sizing:border-box}
 body{
@@ -24,6 +26,7 @@ body{
   align-items:center;
   padding:24px;
 }
+/* CODE FROM FilipPikus123!!!! */
 
 .card{
   width:min(520px,100%);
@@ -37,7 +40,8 @@ body{
 .header{
   text-align:center;
   padding:34px 24px 18px;
-}
+}/* CODE FROM FilipPikus123!!!! */
+
 .header h1{
   margin:0;
   font-size:28px;
@@ -56,7 +60,8 @@ body{
   padding:18px 20px 22px;
   display:flex;
   flex-direction:column;
-  gap:10px;
+  gap:10px;/* CODE FROM FilipPikus123!!!! */
+
 }
 
 a.btn{
@@ -75,7 +80,8 @@ a.btn{
   transition:.15s ease;
 }
 
-a.btn:hover{
+a.btn:hover{/* CODE FROM FilipPikus123!!!! */
+
   background:#1e2128;
   border-color:var(--gold);
   transform:translateY(-1px);
@@ -89,6 +95,7 @@ a.btn:hover{
   background:var(--gold-soft);
   font-size:13px;
 }
+/* CODE FROM FilipPikus123!!!! */
 
 a.btn.disabled{
   pointer-events:none;
@@ -99,16 +106,25 @@ a.btn.disabled{
 
 .footer{
   text-align:center;
-  padding:18px 22px 26px;
+  padding:18px 22px 26px;/* CODE FROM FilipPikus123!!!! */
+
   border-top:1px solid var(--gold-line);
 }
 .footer a{
-  display:block;
-  margin:8px 0;
-  text-decoration:none;
-  color:var(--gold);
-  font-size:13.5px;
+  display:block;/* CODE FROM FilipPikus123!!!! */
+
+  margin:8px 0;/* CODE FROM FilipPikus123!!!! */
+/* CODE FROM FilipPikus123!!!! */
+
+  text-decoration:none;/* CODE FROM FilipPikus123!!!! */
+
+  color:var(--gold);/* CODE FROM FilipPikus123!!!! */
+
+  font-size:13.5px;/* CODE FROM FilipPikus123!!!! */
+
 }
 .footer a:hover{
-  color:#fff;
+  color:#fff;/* CODE FROM FilipPikus123!!!! */
+
 }
+/* CODE FROM FilipPikus123!!!! */
