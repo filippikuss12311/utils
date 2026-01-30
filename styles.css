@@ -1,9 +1,11 @@
 :root{/* CODE FROM FilipPikus123!!!! */
+/* CODE FROM FilipPikus123!!!! */
 
   --bg:#0c0d10;
   --card:#14161b;
   --text:#f2f2f2;
-  --muted:#9fa3ad;
+  --muted:#9fa3ad;/* CODE FROM FilipPikus123!!!! */
+
   --gold:#c6a85a;
   --gold-soft:rgba(198,168,90,.12);
   --gold-line:rgba(198,168,90,.28);
@@ -11,18 +13,24 @@
   --shadow:0 20px 60px rgba(0,0,0,.6);
 }
 /* CODE FROM FilipPikus123!!!! */
+/* CODE FROM FilipPikus123!!!! */
 
 *{box-sizing:border-box}
 body{
   margin:0;
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  background:
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;/* CODE FROM FilipPikus123!!!! */
+
+  background:/* CODE FROM FilipPikus123!!!! */
+
     radial-gradient(800px 500px at 20% 10%, rgba(198,168,90,.06), transparent 60%),
-    radial-gradient(800px 500px at 80% 15%, rgba(198,168,90,.05), transparent 60%),
+    radial-gradient(800px 500px at 80% 15%, rgba(198,168,90,.05), transparent 60%),/* CODE FROM FilipPikus123!!!! */
+
     var(--bg);
   color:var(--text);
-  display:flex;
-  justify-content:center;
+  display:flex;/* CODE FROM FilipPikus123!!!! */
+
+  justify-content:center;/* CODE FROM FilipPikus123!!!! */
+
   align-items:center;
   padding:24px;
 }
@@ -38,21 +46,28 @@ body{
 }
 
 .header{
-  text-align:center;
+  text-align:center;/* CODE FROM FilipPikus123!!!! */
+
   padding:34px 24px 18px;
 }/* CODE FROM FilipPikus123!!!! */
 
 .header h1{
   margin:0;
-  font-size:28px;
-  font-weight:600;
+  font-size:28px;/* CODE FROM FilipPikus123!!!! */
+
+  font-weight:600;/* CODE FROM FilipPikus123!!!! */
+
   letter-spacing:.4px;
-  color:var(--gold);
+  color:var(--gold);/* CODE FROM FilipPikus123!!!! */
+
 }
-.header p{
-  margin:10px 0 0;
+.header p{/* CODE FROM FilipPikus123!!!! */
+
+  margin:10px 0 0;/* CODE FROM FilipPikus123!!!! */
+
   color:var(--muted);
-  font-size:14.5px;
+  font-size:14.5px;/* CODE FROM FilipPikus123!!!! */
+
   line-height:1.6;
 }
 
@@ -65,27 +80,39 @@ body{
 }
 
 a.btn{
-  display:flex;
-  align-items:center;
+  display:flex;/* CODE FROM FilipPikus123!!!! */
+
+  align-items:center;/* CODE FROM FilipPikus123!!!! */
+
   justify-content:center;
-  gap:10px;
+  gap:10px;/* CODE FROM FilipPikus123!!!! */
+
   padding:13px 14px;
-  border-radius:10px;
+  border-radius:10px;/* CODE FROM FilipPikus123!!!! */
+
   text-decoration:none;
-  font-weight:600;
+  font-weight:600;/* CODE FROM FilipPikus123!!!! */
+
   font-size:14px;
-  color:var(--gold);
+  color:var(--gold);/* CODE FROM FilipPikus123!!!! */
+
   background:#191c22;
-  border:1px solid var(--gold-line);
-  transition:.15s ease;
+  border:1px solid var(--gold-line);/* CODE FROM FilipPikus123!!!! */
+
+  transition:.15s ease;/* CODE FROM FilipPikus123!!!! */
+
 }
 
 a.btn:hover{/* CODE FROM FilipPikus123!!!! */
 
-  background:#1e2128;
-  border-color:var(--gold);
-  transform:translateY(-1px);
-}
+  background:#1e2128;/* CODE FROM FilipPikus123!!!! */
+
+  border-color:var(--gold);/* CODE FROM FilipPikus123!!!! */
+
+  transform:translateY(-1px);/* CODE FROM FilipPikus123!!!! */
+
+}/* CODE FROM FilipPikus123!!!! */
+
 
 .ico{
   width:24px;height:24px;
@@ -97,12 +124,14 @@ a.btn:hover{/* CODE FROM FilipPikus123!!!! */
 }
 /* CODE FROM FilipPikus123!!!! */
 
-a.btn.disabled{
+a.btn.disabled{/* CODE FROM FilipPikus123!!!! */
+
   pointer-events:none;
   color:#777;
   background:#181a1f;
   border-color:#333;
-}
+}/* CODE FROM FilipPikus123!!!! */
+
 
 .footer{
   text-align:center;
